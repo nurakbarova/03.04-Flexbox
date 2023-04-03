@@ -8,6 +8,7 @@ header {
     border: 1px solid black;
     width: 100%;
     position: fixed;
+    z-index: 999;
 }
 
 nav {
@@ -16,6 +17,7 @@ nav {
     align-items: center;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.7);
+
 }
 
 .links {
@@ -26,7 +28,8 @@ nav .links ul {
     display: flex;
     align-items: center;
 }
-nav h1{
+
+nav h1 {
     padding: 15px;
     color: white;
 }
@@ -37,6 +40,39 @@ nav .links ul li a {
     color: rgba(255, 255, 255, 0.274);
     transition: .5s;
 }
-nav .links ul li a :hover{
-    color:white;
+
+nav .links ul li a:hover {
+    color: white;
 }
+
+#hero {
+    background-position: top center;
+    height: 80vh;
+    position: relative;
+    padding-top: 70px;
+    background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
+    background-attachment: fixed;
+
+}
+
+#hero article h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    font-family: "Catamaran", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+}
+#hero article button{
+    background-color:rgb(238,9,121);
+    border-radius: 50px;
+    padding: 10px 25px;
+    color: white;
+    border: 1px solid rgb(238,9,121);
+    margin-left: 42%;
+}
+#hero article button:hover{
+   background-color: #ca0867;
+}
+
