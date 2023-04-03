@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    border: 1px solid black;
+    width: 100%;
+    position: fixed;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.links {
+    display: flex;
+}
+
+nav .links ul {
+    display: flex;
+    align-items: center;
+}
+nav h1{
+    padding: 15px;
+    color: white;
+}
+
+nav .links ul li a {
+    padding: 10px 15px 10px 30px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.274);
+    transition: .5s;
+}
+nav .links ul li a :hover{
+    color:white;
+}
