@@ -36,7 +36,7 @@ nav h1 {
 
 nav .links ul li a {
     padding: 10px 15px 10px 30px;
-    text-decoration: none;
+    text-decoration:none;
     color: rgba(255, 255, 255, 0.274);
     transition: .5s;
 }
@@ -75,4 +75,85 @@ nav .links ul li a:hover {
 #hero article button:hover{
    background-color: #ca0867;
 }
+#about{
+    padding: 6%;
+    display: block;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center;  */
+}
+#about .container{
+    display: flex;
+    justify-content: space-between;
+}
+#about article{
+    width: 30%;
+    height: 30%; 
+    margin-left: 15%;
+}
+#about article h3{
+    font-weight: 800;
+    line-height: 1.2;
+    font-size: 50px;
+    font-family: "Catamaran", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" ;
 
+}
+#about article p{
+    font-style: italic;
+    font-size: 25px;
+}
+
+#about .about__img img{
+    border-radius:50% ;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20%;
+}
+#about .about__img{
+    display: flex;
+    align-items: end;
+    width: 25%;
+    height: 25%;
+    flex-direction: column-reverse;
+    position: absolute;
+    left: 70%;
+}
+#about .row{
+  position: relative;
+}
+.miidle  .miidle__img{
+    display: flex;
+    align-items: end;
+    width: 25%;
+    height: 25%;
+    /* flex-direction: column-reverse;
+    position: absolute; */
+    left: 70%;
+    border-radius: 50%;
+
+}
+.miidle .miidle__img img{
+    /* display: flex;
+    align-items: end; */
+    width: 25%;
+    height: 25%;
+    /* flex-direction: column-reverse; */
+    /* position: absolute; */
+    right: 100px;
+    border-radius: 50%;
+}
+footer{
+    text-align: center;
+    margin-bottom: 3%;
+    color: white;
+    width: 100%;
+    height: 10%;
+    background-color: black;
+}
+
+
+@media (max-width: 500px){
+    .col-sm-12{
+        width: 100%;
+    }
+}
